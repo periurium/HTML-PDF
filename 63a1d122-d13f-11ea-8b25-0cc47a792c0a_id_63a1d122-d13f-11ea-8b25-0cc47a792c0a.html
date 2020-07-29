@@ -1,0 +1,868 @@
+<html>
+   <head>
+      <meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+      <style type="text/css">
+         <!--
+            span.cls_003{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_003{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_004{font-family:"Calibri",serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_004{font-family:"Calibri",serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_002{font-family:Arial,serif;font-size:34.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_002{font-family:Arial,serif;font-size:34.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_005{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_005{font-family:Arial,serif;font-size:14.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_007{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_007{font-family:Arial,serif;font-size:18.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_008{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_008{font-family:Arial,serif;font-size:10.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_006{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_006{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_048{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+            div.cls_048{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_009{font-family:Arial,serif;font-size:8.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_009{font-family:Arial,serif;font-size:8.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_010{font-family:Arial,serif;font-size:6.8px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_010{font-family:Arial,serif;font-size:6.8px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_017{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_017{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_011{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_011{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_012{font-family:Arial,serif;font-size:5.8px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_012{font-family:Arial,serif;font-size:5.8px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_013{font-family:Arial,serif;font-size:6.5px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_013{font-family:Arial,serif;font-size:6.5px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_014{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_014{font-family:Arial,serif;font-size:6.5px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_015{font-family:Arial,serif;font-size:6.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_015{font-family:Arial,serif;font-size:6.7px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_016{font-family:Arial,serif;font-size:6.7px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_016{font-family:Arial,serif;font-size:6.7px;color:rgb(255,255,255);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_019{font-family:Arial,serif;font-size:10.8px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_019{font-family:Arial,serif;font-size:10.8px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_031{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_031{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_033{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_033{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_034{font-family:Arial,serif;font-size:8.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_034{font-family:Arial,serif;font-size:8.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_020{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_020{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_018{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_018{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_021{font-family:Arial,serif;font-size:10.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_021{font-family:Arial,serif;font-size:10.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_022{font-family:Arial,serif;font-size:10.5px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_022{font-family:Arial,serif;font-size:10.5px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_023{font-family:Arial,serif;font-size:9.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_023{font-family:Arial,serif;font-size:9.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_032{font-family:Arial,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_032{font-family:Arial,serif;font-size:9.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_024{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_024{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_025{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_025{font-family:Arial,serif;font-size:12.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_026{font-family:Arial,serif;font-size:8.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_026{font-family:Arial,serif;font-size:8.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_027{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_027{font-family:Arial,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_028{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_028{font-family:Times,serif;font-size:9.1px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_029{font-family:Arial,serif;font-size:11.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_029{font-family:Arial,serif;font-size:11.6px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_030{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_030{font-family:Arial,serif;font-size:10.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_036{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_036{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_037{font-family:Arial,serif;font-size:9.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_037{font-family:Arial,serif;font-size:9.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_038{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_038{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_039{font-family:Arial,serif;font-size:7.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_039{font-family:Arial,serif;font-size:7.0px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_040{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_040{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_035{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_035{font-family:Arial,serif;font-size:8.1px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_041{font-family:Arial,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_041{font-family:Arial,serif;font-size:5.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_042{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_042{font-family:Arial,serif;font-size:8.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_043{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_043{font-family:Arial,serif;font-size:6.0px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_044{font-family:Arial,serif;font-size:7.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            div.cls_044{font-family:Arial,serif;font-size:7.2px;color:rgb(0,0,0);font-weight:bold;font-style:normal;text-decoration: none}
+            span.cls_045{font-family:Arial,serif;font-size:7.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_045{font-family:Arial,serif;font-size:7.9px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_049{font-family:Arial,serif;font-size:8.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: underline}
+            div.cls_049{font-family:Arial,serif;font-size:8.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_046{font-family:Times,serif;font-size:9.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_046{font-family:Times,serif;font-size:9.1px;color:rgb(255,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            span.cls_047{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            div.cls_047{font-family:Arial,serif;font-size:7.0px;color:rgb(0,0,0);font-weight:normal;font-style:normal;text-decoration: none}
+            -->
+      </style>
+      <script type="text/javascript" src="63a1d122-d13f-11ea-8b25-0cc47a792c0a_id_63a1d122-d13f-11ea-8b25-0cc47a792c0a_files/wz_jsgraphics.js"></script>
+   </head>
+   <body>
+      <div style="position:absolute;left:50%;margin-left:-306px;top:0px;width:612px;height:792px;border-style:outset;overflow:hidden">
+         <div style="position:absolute;left:0px;top:0px">
+            <img src="63a1d122-d13f-11ea-8b25-0cc47a792c0a_id_63a1d122-d13f-11ea-8b25-0cc47a792c0a_files/background1.jpg" width=612 height=792>
+         </div>
+         <div style="position:absolute;left:19.17px;top:16.89px" class="cls_003"><span class="cls_003">PT-50P </span><span class="cls_004">(revised 1/18/2017)</span></div>
+         <div style="position:absolute;left:129.72px;top:438.68px" class="cls_002"><span class="cls_002">OFFICIAL TAX MATTER</span></div>
+         <div style="position:absolute;left:38.40px;top:483.52px" class="cls_005"><span class="cls_005">TANGIBLE PERSONAL PROPERTY TAX RETURN AND SUPPORTING SCHEDULES</span></div>
+      </div>
+      <div style="position:absolute;left:50%;margin-left:-306px;top:802px;width:612px;height:792px;border-style:outset;overflow:hidden">
+         <div style="position:absolute;left:0px;top:0px">
+            <img src="63a1d122-d13f-11ea-8b25-0cc47a792c0a_id_63a1d122-d13f-11ea-8b25-0cc47a792c0a_files/background2.jpg" width=612 height=792>
+         </div>
+         <div style="position:absolute;left:213.36px;top:20.88px" class="cls_007"><span class="cls_007">INSTRUCTION SHEET</span></div>
+         <div style="position:absolute;left:24.72px;top:47.96px" class="cls_008"><span class="cls_008">INSTRUCTIONS FOR PAGE ONE - BUSINESS PERSONAL PROPERTY TAX RETURN</span></div>
+         <div style="position:absolute;left:27.00px;top:66.64px" class="cls_006"><span class="cls_006">1.</span></div>
+         <div style="position:absolute;left:45.00px;top:66.64px" class="cls_006"><span class="cls_006">If taxpayer name or address has changed or is incorrect, provide correct name and address in the space provided.</span></div>
+         <div style="position:absolute;left:27.00px;top:75.64px" class="cls_006"><span class="cls_006">2.</span></div>
+         <div style="position:absolute;left:45.00px;top:75.64px" class="cls_006"><span class="cls_006">To avoid a 10% penalty on assets that have not been previously returned, this return must be filed no later than date listed under the due date column</span></div>
+         <div style="position:absolute;left:45.00px;top:84.64px" class="cls_006"><span class="cls_006">on page one.</span></div>
+         <div style="position:absolute;left:27.00px;top:93.64px" class="cls_006"><span class="cls_006">3.</span></div>
+         <div style="position:absolute;left:45.00px;top:93.64px" class="cls_006"><span class="cls_006">Taxpayer return value: Georgia Law (O.C.G.A.§ 48-5-6) requires the taxpayer to return property at its fair market value. If the values indicated from</span></div>
+         <div style="position:absolute;left:45.00px;top:102.64px" class="cls_006"><span class="cls_006">Schedules A, B, or C do not in your opinion reflect fair market value, you may list your opinion here. Attachments must be provided by you listing the</span></div>
+         <div style="position:absolute;left:45.00px;top:111.64px" class="cls_006"><span class="cls_006">reasons for change.</span></div>
+         <div style="position:absolute;left:27.00px;top:120.64px" class="cls_006"><span class="cls_006">4.</span></div>
+         <div style="position:absolute;left:45.00px;top:120.64px" class="cls_006"><span class="cls_006">Value from Schedule A, B, & C: Schedules A, B, & C should be completed and the total values from these schedules should be listed in this column.</span></div>
+         <div style="position:absolute;left:27.00px;top:129.64px" class="cls_006"><span class="cls_006">5.</span></div>
+         <div style="position:absolute;left:45.00px;top:129.64px" class="cls_006"><span class="cls_006">Taxpayers Declaration: This declaration must be signed by the taxpayer or agent and dated in order for this to be a valid return.</span></div>
+         <div style="position:absolute;left:22.56px;top:151.28px" class="cls_008"><span class="cls_008">INSTRUCTIONS FOR PAGE TWO - GENERAL INFORMATION AND IMPORTANT INFORMATION</span></div>
+         <div style="position:absolute;left:25.80px;top:170.92px" class="cls_006"><span class="cls_006">1.</span></div>
+         <div style="position:absolute;left:43.80px;top:170.92px" class="cls_006"><span class="cls_006">The information requested in the general information section is very important. This area should be completed in detail. The information in this section is</span></div>
+         <div style="position:absolute;left:43.80px;top:179.92px" class="cls_006"><span class="cls_006">open for public inspection.</span></div>
+         <div style="position:absolute;left:25.80px;top:188.92px" class="cls_006"><span class="cls_006">2.</span></div>
+         <div style="position:absolute;left:43.82px;top:188.92px" class="cls_006"><span class="cls_006">The information found in the reference information section may be of great interest to the taxpayer. This section contains information about various laws and</span></div>
+         <div style="position:absolute;left:43.80px;top:197.92px" class="cls_006"><span class="cls_006">exemptions that may be available to the taxpayer.</span></div>
+         <div style="position:absolute;left:22.56px;top:217.76px" class="cls_008"><span class="cls_008">INSTRUCTIONS FOR PAGE THREE - SCHEDULE A - FURNITURE / FIXTURES / MACHINERY / EQUIPMENT</span></div>
+         <div style="position:absolute;left:25.80px;top:240.40px" class="cls_006"><span class="cls_006">1.</span></div>
+         <div style="position:absolute;left:43.80px;top:240.40px" class="cls_006"><span class="cls_006">This section provides for the uniform calculation of value for all assets of the business owned on January 1 of this year. Expensed assets as well as</span></div>
+         <div style="position:absolute;left:43.80px;top:249.40px" class="cls_006"><span class="cls_006">capitalized assets should be listed and valued using indicated schedule. Leasehold improvements personal property in nature and trade fixtures should also</span></div>
+         <div style="position:absolute;left:43.80px;top:258.40px" class="cls_006"><span class="cls_006">be reported on this schedule. Leasehold improvements such as walls, doors, floor covering, electrical, plumbing, heating and air distribution systems, ceiling</span></div>
+         <div style="position:absolute;left:43.80px;top:267.40px" class="cls_006"><span class="cls_006">and lighting that are attached to and form an integral part of the building should </span><span class="cls_048">not</span><span class="cls_006"> be reported as personal property.</span></div>
+         <div style="position:absolute;left:25.80px;top:276.40px" class="cls_006"><span class="cls_006">2.</span></div>
+         <div style="position:absolute;left:43.82px;top:276.40px" class="cls_006"><span class="cls_006">The indicated basic cost approach value of assets for tax purposes is computed by multiplying the total adjusted original cost new by the composite</span></div>
+         <div style="position:absolute;left:43.80px;top:285.40px" class="cls_006"><span class="cls_006">conversion factor of each year’s acquisition listed in the appropriate economic life group. Cost amounts are subject to audit. Cost should include installation,</span></div>
+         <div style="position:absolute;left:43.80px;top:294.40px" class="cls_006"><span class="cls_006">trade-in allowances, sales tax, investment credits, transportation, etc.</span></div>
+         <div style="position:absolute;left:25.80px;top:303.40px" class="cls_006"><span class="cls_006">3.</span></div>
+         <div style="position:absolute;left:43.82px;top:303.40px" class="cls_006"><span class="cls_006">Internal Revenue Service Publication 946 “How to Depreciate Property” Appendix B - Table of Class Lives and Recovery Periods - column</span></div>
+         <div style="position:absolute;left:43.80px;top:312.40px" class="cls_006"><span class="cls_006">headed “Class Life in Years”, should be used for determining the economic life group of an asset for Ad Valorem Tax purposes. See</span></div>
+         <div style="position:absolute;left:43.80px;top:321.40px" class="cls_006"><span class="cls_006">examples of economic life groups listed below. ACRS and MACRS should </span><span class="cls_048">not</span><span class="cls_006"> be used for determining the economic life of an asset for Ad Valorem Tax</span></div>
+         <div style="position:absolute;left:43.80px;top:330.40px" class="cls_006"><span class="cls_006">purposes.</span></div>
+         <div style="position:absolute;left:25.80px;top:339.40px" class="cls_006"><span class="cls_006">4.</span></div>
+         <div style="position:absolute;left:43.82px;top:339.40px" class="cls_006"><span class="cls_006">Deduct cost of items disposed of or transferred out from the cost of assets acquired during the corresponding year; add cost of items transferred in.</span></div>
+         <div style="position:absolute;left:43.80px;top:348.40px" class="cls_006"><span class="cls_006">(Disposals include only those items which have been sold, junked, transferred or otherwise no longer located at the business on January 1, this year). List</span></div>
+         <div style="position:absolute;left:43.80px;top:357.40px" class="cls_006"><span class="cls_006">disposals and items transferred in or out and reasons for disposals or transfer on page 4 under sections three or four.</span></div>
+         <div style="position:absolute;left:25.80px;top:366.40px" class="cls_009"><span class="cls_009">5.</span></div>
+         <div style="position:absolute;left:45.65px;top:366.40px" class="cls_009"><span class="cls_009">A copy of the most current asset listing indicating the date of acquisition, original cost, and description of each asset should be submitted with this schedule.</span></div>
+         <div style="position:absolute;left:43.80px;top:375.40px" class="cls_009"><span class="cls_009">If an asset listing is not available please submit a copy of your most current I.R.S. form 4562 Depreciation Schedule and all supplemental schedules utilized</span></div>
+         <div style="position:absolute;left:43.80px;top:384.40px" class="cls_009"><span class="cls_009">to develop depreciation deduction for A.C.R.S. assets and assets listed under the column headed “Other Depreciation” as well as supplemental depreciation</span></div>
+         <div style="position:absolute;left:43.80px;top:393.40px" class="cls_009"><span class="cls_009">schedule used for M.A.C.R.S. assets. This information is needed for verification purposes and is not available for public inspection (O.C.G.A.§ 48-5-314).</span></div>
+         <div style="position:absolute;left:23.28px;top:416.36px" class="cls_008"><span class="cls_008">DEPRECIATION GROUPING EXAMPLES</span></div>
+         <div style="position:absolute;left:24.72px;top:436.41px" class="cls_010"><span class="cls_010">GROUP 1: ECONOMIC LIFE OF 5-7 YEARS</span></div>
+         <div style="position:absolute;left:167.04px;top:436.41px" class="cls_010"><span class="cls_010">GROUP 2: ECONOMIC LIFE OF 8-12 YEARS</span></div>
+         <div style="position:absolute;left:311.64px;top:436.41px" class="cls_010"><span class="cls_010">GROUP 3: ECONOMIC LIFE OF 13 YEARS OR MORE</span></div>
+         <div style="position:absolute;left:465.72px;top:434.36px" class="cls_017"><span class="cls_017">GROUP 4: ECONOMIC LIFE OF 1-4 YEARS</span></div>
+         <div style="position:absolute;left:465.72px;top:443.16px" class="cls_011"><span class="cls_011">ALSO ASSET CLASS 00.12 IRS PUBLICATION 94</span><span class="cls_012">6</span></div>
+         <div style="position:absolute;left:22.56px;top:455.96px" class="cls_013"><span class="cls_013">0</span><span class="cls_014">1</span><span class="cls_015">) Copiers, Duplicating Equip., Typewriters</span></div>
+         <div style="position:absolute;left:165.36px;top:456.56px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">1) Office Furniture, Fixtures and Equipment</span></div>
+         <div style="position:absolute;left:317.28px;top:456.56px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">1) Petroleum Refining Equipment</span></div>
+         <div style="position:absolute;left:474.24px;top:457.16px" class="cls_013"><span class="cls_013">0</span><span class="cls_015">1) Computers - Non Production</span></div>
+         <div style="position:absolute;left:22.56px;top:465.08px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">2) Calculators, Adding and Accounting Machines</span></div>
+         <div style="position:absolute;left:165.36px;top:465.80px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">2) Agriculture Machinery and Equipment</span></div>
+         <div style="position:absolute;left:317.28px;top:465.80px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">2) Grain and Grain Mill Products (Mfg.)</span></div>
+         <div style="position:absolute;left:474.24px;top:466.64px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">2) Peripheral Computer Equipment</span></div>
+         <div style="position:absolute;left:22.56px;top:474.32px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">3) Electronic Instrumentation Mfg.</span></div>
+         <div style="position:absolute;left:165.36px;top:474.92px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">3) Recreation or Entertainment Services</span></div>
+         <div style="position:absolute;left:317.28px;top:474.92px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">3) Mfg. of Sugar and Sugar Products</span></div>
+         <div style="position:absolute;left:474.24px;top:476.12px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">3) Jigs, Dies, Molds, Patterns</span></div>
+         <div style="position:absolute;left:22.56px;top:483.56px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">4) Construction Equipment</span></div>
+         <div style="position:absolute;left:165.36px;top:484.16px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">4) Mining and Quarrying</span></div>
+         <div style="position:absolute;left:317.28px;top:484.16px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">4) Mfg. of Vegetable Oils and Products</span></div>
+         <div style="position:absolute;left:474.24px;top:485.59px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">4) Special Tools and Gauges</span></div>
+         <div style="position:absolute;left:22.56px;top:492.68px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">5) Timber Cutting Equipment</span></div>
+         <div style="position:absolute;left:165.36px;top:493.40px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">5) Mfg. of Textile Products</span></div>
+         <div style="position:absolute;left:317.28px;top:493.40px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">5) Mfg. of Tobacco and Tobacco Products</span></div>
+         <div style="position:absolute;left:474.24px;top:495.19px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">5) Returnable Containers</span></div>
+         <div style="position:absolute;left:22.56px;top:501.92px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">6) Mfg. of Electronic Components & Products</span></div>
+         <div style="position:absolute;left:165.36px;top:502.52px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">6) Mfg. of Wood Products and Furniture</span></div>
+         <div style="position:absolute;left:317.28px;top:502.52px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">6) Mfg. of Pulp and Paper</span></div>
+         <div style="position:absolute;left:474.24px;top:504.67px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">6) Special Transfer and Shipping Devices</span></div>
+         <div style="position:absolute;left:22.56px;top:511.16px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">7) Radio and T.V. Broadcasting Equipment</span></div>
+         <div style="position:absolute;left:165.36px;top:511.76px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">7) Permanent Sawmills</span></div>
+         <div style="position:absolute;left:317.28px;top:511.76px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">7) Mfg. of Rubber Products</span></div>
+         <div style="position:absolute;left:474.24px;top:514.15px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">7) Pallets</span></div>
+         <div style="position:absolute;left:22.56px;top:520.28px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">8) Drilling of Oil and Gas Wells</span></div>
+         <div style="position:absolute;left:165.36px;top:521.00px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">8) Mfg. of Chemicals and Allied Products</span></div>
+         <div style="position:absolute;left:317.28px;top:521.00px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">8) Mfg. of Cement</span></div>
+         <div style="position:absolute;left:474.24px;top:523.62px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">8) Rental Movies</span></div>
+         <div style="position:absolute;left:22.56px;top:529.52px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">9) Temporary Sawmills</span></div>
+         <div style="position:absolute;left:165.36px;top:530.12px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">9) Mfg. of finished Plastics Products</span></div>
+         <div style="position:absolute;left:317.28px;top:530.12px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">9) Mfg. of Stone and Clay Products</span></div>
+         <div style="position:absolute;left:474.24px;top:533.10px" class="cls_016"><span class="cls_016">0</span><span class="cls_015">9) Card Readers</span></div>
+         <div style="position:absolute;left:22.56px;top:538.76px" class="cls_015"><span class="cls_015">10) Any Semiconductor Mfg. Equipment</span></div>
+         <div style="position:absolute;left:165.36px;top:539.36px" class="cls_015"><span class="cls_015">10) Mfg. of Leather and Leather Products</span></div>
+         <div style="position:absolute;left:317.28px;top:539.36px" class="cls_015"><span class="cls_015">10) Mfg. of Primary Nonferrous Metals</span></div>
+         <div style="position:absolute;left:474.24px;top:542.58px" class="cls_015"><span class="cls_015">10) High Speed Printers</span></div>
+         <div style="position:absolute;left:22.56px;top:547.88px" class="cls_015"><span class="cls_015">11) Telegraph and Satellite Communications</span></div>
+         <div style="position:absolute;left:165.36px;top:548.60px" class="cls_015"><span class="cls_015">11) Mfg. of Electrical and Non-electrical Machinery</span></div>
+         <div style="position:absolute;left:317.28px;top:548.60px" class="cls_015"><span class="cls_015">11) Mfg. of Foundry Products</span></div>
+         <div style="position:absolute;left:474.24px;top:552.18px" class="cls_015"><span class="cls_015">11) Data Entry Devices</span></div>
+         <div style="position:absolute;left:22.56px;top:557.12px" class="cls_015"><span class="cls_015">12) Vending Equipment, Coin Operated</span></div>
+         <div style="position:absolute;left:165.36px;top:557.72px" class="cls_015"><span class="cls_015">12) Mfg. of Athletic, Jewelry and Other Goods</span></div>
+         <div style="position:absolute;left:317.28px;top:557.72px" class="cls_015"><span class="cls_015">12) Mfg. of Primary Steel Mill Products</span></div>
+         <div style="position:absolute;left:474.24px;top:561.66px" class="cls_015"><span class="cls_015">12) Teleprinters</span></div>
+         <div style="position:absolute;left:22.56px;top:566.36px" class="cls_015"><span class="cls_015">13) Rental Appliances and Televisions</span></div>
+         <div style="position:absolute;left:165.36px;top:566.96px" class="cls_015"><span class="cls_015">13) Retail Trades Furniture, Fixtures and Equipment</span></div>
+         <div style="position:absolute;left:317.28px;top:566.96px" class="cls_015"><span class="cls_015">13) Tanks and Storage</span></div>
+         <div style="position:absolute;left:474.24px;top:571.13px" class="cls_015"><span class="cls_015">13) Plotters</span></div>
+         <div style="position:absolute;left:22.56px;top:575.48px" class="cls_015"><span class="cls_015">14) Hand Tools</span></div>
+         <div style="position:absolute;left:165.36px;top:576.20px" class="cls_015"><span class="cls_015">14) Restaurant and Bar Equipment</span></div>
+         <div style="position:absolute;left:317.28px;top:576.20px" class="cls_015"><span class="cls_015">14) Billboards/Signs</span></div>
+         <div style="position:absolute;left:474.24px;top:580.61px" class="cls_015"><span class="cls_015">14) Terminals, Tape Drives, Disc Drives</span></div>
+         <div style="position:absolute;left:22.56px;top:584.72px" class="cls_015"><span class="cls_015">15) Nuclear Fuel Assemblies</span></div>
+         <div style="position:absolute;left:165.36px;top:585.32px" class="cls_015"><span class="cls_015">15) Hotel and Motel Furnishing and Equipment</span></div>
+         <div style="position:absolute;left:317.28px;top:585.32px" class="cls_015"><span class="cls_015">15) Radio/T.V. Antennas and Towers</span></div>
+         <div style="position:absolute;left:474.24px;top:590.09px" class="cls_015"><span class="cls_015">15) Magnetic Tape Feeds</span></div>
+         <div style="position:absolute;left:22.56px;top:593.96px" class="cls_015"><span class="cls_015">16) Fishing Equipment</span></div>
+         <div style="position:absolute;left:165.36px;top:594.56px" class="cls_015"><span class="cls_015">16) Automobile Repair and Shop Equipment</span></div>
+         <div style="position:absolute;left:317.28px;top:594.56px" class="cls_015"><span class="cls_015">16) Cold Storage and Ice Making Equipment</span></div>
+         <div style="position:absolute;left:474.24px;top:599.57px" class="cls_015"><span class="cls_015">16) Optical Character Readers</span></div>
+         <div style="position:absolute;left:22.56px;top:603.09px" class="cls_015"><span class="cls_015">17) Cattle, Breeding, or Dairy Equipment</span></div>
+         <div style="position:absolute;left:165.36px;top:603.80px" class="cls_015"><span class="cls_015">17) Personal and Professional Services</span></div>
+         <div style="position:absolute;left:317.28px;top:603.80px" class="cls_015"><span class="cls_015">17) Mfg. of Glass Products</span></div>
+         <div style="position:absolute;left:21.36px;top:622.40px" class="cls_008"><span class="cls_008">INSTRUCTIONS FOR PAGE FOUR - BUSINESS PERSONAL PROPERTY SCHEDULE B - INVENTORY</span></div>
+         <div style="position:absolute;left:23.76px;top:644.32px" class="cls_006"><span class="cls_006">1.</span></div>
+         <div style="position:absolute;left:41.76px;top:644.32px" class="cls_006"><span class="cls_006">Inventory should be reported at 100% cost on January 1, this year. Cost should include, but not be limited to, freight in, overhead or burden, Federal, State,</span></div>
+         <div style="position:absolute;left:41.76px;top:653.32px" class="cls_006"><span class="cls_006">or Local Taxes, or any other charges imposed upon the item that makes it more valuable to the owner. Costs will be arrived at by converting anything other</span></div>
+         <div style="position:absolute;left:41.76px;top:662.32px" class="cls_006"><span class="cls_006">than current cost back to cost. “LIFO” is not acceptable.</span></div>
+         <div style="position:absolute;left:23.76px;top:671.32px" class="cls_006"><span class="cls_006">2.</span></div>
+         <div style="position:absolute;left:41.78px;top:671.32px" class="cls_006"><span class="cls_006">The name and address of the legal owner of any consigned goods or any other type goods not owned by you and not reported under Schedule B should be</span></div>
+         <div style="position:absolute;left:41.76px;top:680.32px" class="cls_006"><span class="cls_006">listed under Section 1, Consigned Goods. This will insure that the taxes are charged to the legal owner.</span></div>
+         <div style="position:absolute;left:23.76px;top:689.32px" class="cls_006"><span class="cls_006">3.</span></div>
+         <div style="position:absolute;left:41.78px;top:689.32px" class="cls_006"><span class="cls_006">Schedule C - Construction in Progress - if you had any unallocated cost for Construction in Progress, which is personal property in nature, that was not</span></div>
+         <div style="position:absolute;left:41.76px;top:698.32px" class="cls_006"><span class="cls_006">reported under Schedule A it should be reported under Schedule C. A description of the property, year acquired, useful life in years, and total cost should be</span></div>
+         <div style="position:absolute;left:41.76px;top:707.32px" class="cls_006"><span class="cls_006">reported.</span></div>
+         <div style="position:absolute;left:23.76px;top:716.32px" class="cls_006"><span class="cls_006">4.</span></div>
+         <div style="position:absolute;left:41.78px;top:716.32px" class="cls_006"><span class="cls_006">If you had in your possession on January 1 any leased or rented equipment, machinery, furniture, fixtures, tools, vending machines, or other types of property,</span></div>
+         <div style="position:absolute;left:41.76px;top:725.32px" class="cls_006"><span class="cls_006">the legal owners name and address should be listed under Section 2 headed Leased or Rented Equipment. This will insure that the taxes are charged to the</span></div>
+         <div style="position:absolute;left:41.76px;top:734.32px" class="cls_006"><span class="cls_006">legal owner.</span></div>
+         <div style="position:absolute;left:25.32px;top:752.20px" class="cls_009"><span class="cls_009">NOTE:  Schedules A, B, and C and all documents furnished by the taxpayer are considered confidential and not open to public inspection. O.C.G.A.,§ 48-5-314.</span></div>
+         <div style="position:absolute;left:56.88px;top:761.20px" class="cls_009"><span class="cls_009">Returns are public information.</span></div>
+      </div>
+      <div style="position:absolute;left:50%;margin-left:-306px;top:1604px;width:612px;height:792px;border-style:outset;overflow:hidden">
+         <div style="position:absolute;left:0px;top:0px">
+            <img src="63a1d122-d13f-11ea-8b25-0cc47a792c0a_id_63a1d122-d13f-11ea-8b25-0cc47a792c0a_files/background3.jpg" width=612 height=792>
+         </div>
+         <div style="position:absolute;left:48.72px;top:17.36px" class="cls_019"><span class="cls_019">BUSINESS PERSONAL PROPERTY</span></div>
+         <div style="position:absolute;left:293.62px;top:18.92px" class="cls_031"><span class="cls_031">TAX YEAR</span></div>
+         <div style="position:absolute;left:364.54px;top:19.16px" class="cls_031"><span class="cls_031">IF ASSISTANCE NEEDED CALL</span></div>
+         <div style="position:absolute;left:515.37px;top:19.81px" class="cls_033"><span class="cls_033">ACCOUNT NUMBER</span></div>
+         <div style="position:absolute;left:108.00px;top:27.92px" class="cls_019"><span class="cls_019">TAX RETURN</span></div>
+         <div style="position:absolute;left:43.08px;top:39.28px" class="cls_006"><span class="cls_006">THIS RETURN IS CONSIDERED PUBLIC INFORMATION</span></div>
+         <div style="position:absolute;left:317.50px;top:43.64px" class="cls_034"><span class="cls_034">DUE DATE</span></div>
+         <div style="position:absolute;left:408.88px;top:43.40px" class="cls_031"><span class="cls_031">MAP AND PARCEL I.D. NO.</span></div>
+         <div style="position:absolute;left:552.33px;top:43.64px" class="cls_031"><span class="cls_031">NAICS NO.</span></div>
+         <div style="position:absolute;left:58.56px;top:46.96px" class="cls_006"><span class="cls_006">AND WILL BE OPEN FOR PUBLIC INSPECTION</span></div>
+         <div style="position:absolute;left:61.56px;top:56.76px" class="cls_020"><span class="cls_020">RETURN COMPLETED FORM TO ADDRESS LISTED BELOW.</span></div>
+         <div style="position:absolute;left:53.04px;top:67.56px" class="cls_018"><span class="cls_018">COUNTY NAME AND RETURN ADDRESS</span></div>
+         <div style="position:absolute;left:363.84px;top:67.20px" class="cls_018"><span class="cls_018">TAXPAYER NAME AND ADDRESS</span></div>
+         <div style="position:absolute;left:373.20px;top:148.68px" class="cls_018"><span class="cls_018">BUSINESS PHYSICAL LOCATION</span></div>
+         <div style="position:absolute;left:27.36px;top:162.28px" class="cls_021"><span class="cls_021">To avoid a 10% penalty on items not previously returned,</span></div>
+         <div style="position:absolute;left:27.36px;top:174.28px" class="cls_021"><span class="cls_021">file not later than the due date listed above. This return is</span></div>
+         <div style="position:absolute;left:336.48px;top:174.88px" class="cls_006"><span class="cls_006">IF MAILING ADDRESS OR NAME IS INCORRECT, PLEASE</span></div>
+         <div style="position:absolute;left:359.04px;top:184.96px" class="cls_006"><span class="cls_006">CORRECT IN THE SPACE PROVIDED BELOW.</span></div>
+         <div style="position:absolute;left:27.36px;top:186.28px" class="cls_021"><span class="cls_021">subject to audit by the Board of Tax Assessors under</span></div>
+         <div style="position:absolute;left:298.08px;top:196.68px" class="cls_018"><span class="cls_018">NAME:</span></div>
+         <div style="position:absolute;left:27.36px;top:197.71px" class="cls_021"><span class="cls_021">O.C.G.A. §</span><span class="cls_022">48-5-299</span><span class="cls_021"> and §48-5-300.  The return and</span></div>
+         <div style="position:absolute;left:27.36px;top:210.28px" class="cls_021"><span class="cls_021">supporting schedule must be completed and returned in</span></div>
+         <div style="position:absolute;left:298.08px;top:220.68px" class="cls_018"><span class="cls_018">ADDRESS:</span></div>
+         <div style="position:absolute;left:27.36px;top:222.28px" class="cls_021"><span class="cls_021">order for property to be properly returned. Department of</span></div>
+         <div style="position:absolute;left:27.36px;top:234.28px" class="cls_021"><span class="cls_021">Revenue Rule 560-11-10-.08 (3) (C)</span></div>
+         <div style="position:absolute;left:298.08px;top:244.68px" class="cls_018"><span class="cls_018">CITY, STATE, ZIP:</span></div>
+         <div style="position:absolute;left:300.12px;top:266.89px" class="cls_023"><span class="cls_023">The values from Schedules A, B, and C should be listed below.</span><span class="cls_018"> If these</span></div>
+         <div style="position:absolute;left:21.84px;top:270.38px" class="cls_032"><span class="cls_032">L</span></div>
+         <div style="position:absolute;left:300.12px;top:276.97px" class="cls_018"><span class="cls_018">values, in your opinion, do not reflect fair market value the</span><span class="cls_024">n declare</span></div>
+         <div style="position:absolute;left:23.16px;top:279.38px" class="cls_032"><span class="cls_032">I</span></div>
+         <div style="position:absolute;left:21.12px;top:288.38px" class="cls_032"><span class="cls_032">N</span></div>
+         <div style="position:absolute;left:300.12px;top:286.93px" class="cls_018"><span class="cls_018">your estimate of value under the column headed Taxpayers Returned Value.</span></div>
+         <div style="position:absolute;left:44.01px;top:288.84px" class="cls_025"><span class="cls_025">PERSONAL PROPERTY STRATA</span></div>
+         <div style="position:absolute;left:21.36px;top:297.38px" class="cls_032"><span class="cls_032">E</span></div>
+         <div style="position:absolute;left:298.80px;top:309.40px" class="cls_006"><span class="cls_006">TAXPAYER RETURNED</span></div>
+         <div style="position:absolute;left:397.62px;top:309.40px" class="cls_009"><span class="cls_009">I</span><span class="cls_026">NDICATED VALUE FROM</span></div>
+         <div style="position:absolute;left:524.76px;top:308.20px" class="cls_006"><span class="cls_006">FOR TAX</span></div>
+         <div style="position:absolute;left:302.28px;top:319.36px" class="cls_006"><span class="cls_006">VALUE, AS OF JAN. 1</span></div>
+         <div style="position:absolute;left:403.26px;top:319.46px" class="cls_026"><span class="cls_026">SCHEDULES A, B, & C</span></div>
+         <div style="position:absolute;left:518.45px;top:318.28px" class="cls_006"><span class="cls_006">OFFICE USE</span></div>
+         <div style="position:absolute;left:20.76px;top:340.68px" class="cls_018"><span class="cls_018">F.</span></div>
+         <div style="position:absolute;left:36.48px;top:340.68px" class="cls_027"><span class="cls_027">Furniture/Fixtures/Machinery/Equipment </span><span class="cls_018">— includes all</span></div>
+         <div style="position:absolute;left:36.48px;top:351.48px" class="cls_018"><span class="cls_018">fixtures, furniture, office equipment, computer hardware,</span></div>
+         <div style="position:absolute;left:36.48px;top:362.28px" class="cls_018"><span class="cls_018">production machinery, off-road vehicles, farm equipment and</span></div>
+         <div style="position:absolute;left:36.48px;top:373.08px" class="cls_018"><span class="cls_018">implements, tools and implements of manual laborers’ trade,</span></div>
+         <div style="position:absolute;left:36.48px;top:383.88px" class="cls_018"><span class="cls_018">leasehold improvements personal property in nature and</span></div>
+         <div style="position:absolute;left:36.48px;top:394.68px" class="cls_018"><span class="cls_018">construction in progress personal property in nature.</span></div>
+         <div style="position:absolute;left:21.34px;top:417.48px" class="cls_028"><span class="cls_028">I.</span></div>
+         <div style="position:absolute;left:37.08px;top:417.48px" class="cls_027"><span class="cls_027">Inventory </span><span class="cls_018">— Includes all raw materials, goods in process,</span></div>
+         <div style="position:absolute;left:37.08px;top:428.28px" class="cls_018"><span class="cls_018">finished goods, livestock and agricultural products, all</span></div>
+         <div style="position:absolute;left:37.08px;top:439.08px" class="cls_018"><span class="cls_018">consumable supplies used in the process of manufacturing,</span></div>
+         <div style="position:absolute;left:37.08px;top:449.88px" class="cls_018"><span class="cls_018">distributing, storing or merchandising of goods and services,</span></div>
+         <div style="position:absolute;left:37.08px;top:460.68px" class="cls_018"><span class="cls_018">floor planned inventory and spare parts.</span></div>
+         <div style="position:absolute;left:37.08px;top:471.48px" class="cls_023"><span class="cls_023">Does not include Freeport Exemption amount granted under</span></div>
+         <div style="position:absolute;left:37.09px;top:482.28px" class="cls_023"><span class="cls_023">O.C.G.A.§ § 48-5-48.2 or 48-5-48.6.</span></div>
+         <div style="position:absolute;left:20.64px;top:495.84px" class="cls_018"><span class="cls_018">P.</span></div>
+         <div style="position:absolute;left:34.68px;top:495.84px" class="cls_027"><span class="cls_027">Freeport Inventory</span><span class="cls_018"> — Includes inventory exemption amount</span></div>
+         <div style="position:absolute;left:36.22px;top:506.45px" class="cls_018"><span class="cls_018">Under O.C.G.A. §§ 48-5-48.2 and 48-5-48.6</span></div>
+         <div style="position:absolute;left:22.93px;top:520.21px" class="cls_018"><span class="cls_018">Z.</span></div>
+         <div style="position:absolute;left:38.65px;top:520.21px" class="cls_027"><span class="cls_027">Other Personal</span><span class="cls_018"> — Includes all personal property not otherwise</span></div>
+         <div style="position:absolute;left:38.65px;top:531.01px" class="cls_018"><span class="cls_018">defined above.</span></div>
+         <div style="position:absolute;left:114.72px;top:547.04px" class="cls_008"><span class="cls_008">TOTALS</span></div>
+         <div style="position:absolute;left:25.80px;top:570.24px" class="cls_018"><span class="cls_018">It shall be the duty of the county Board of Tax Assessors to investigate and to inquire into the property owned in the county for the purpose of</span></div>
+         <div style="position:absolute;left:25.80px;top:580.20px" class="cls_018"><span class="cls_018">ascertaining what property is subject to taxation and to require the proper return of the property for taxation.</span></div>
+         <div style="position:absolute;left:225.95px;top:598.07px" class="cls_029"><span class="cls_029">TAXPAYER’S DECLARATION</span></div>
+         <div style="position:absolute;left:32.28px;top:616.05px" class="cls_030"><span class="cls_030">“I do solemnly swear that I have carefully read (or have heard read) and have duly considered the questions propounded in the</span></div>
+         <div style="position:absolute;left:32.28px;top:628.05px" class="cls_030"><span class="cls_030">foregoing tax list, and that the value placed by me on the property returned, as shown by the list, is the true market value thereof;</span></div>
+         <div style="position:absolute;left:32.28px;top:640.05px" class="cls_030"><span class="cls_030">and I further swear that I returned, for the purpose of being taxed thereon, every species of property that I own in my own right</span></div>
+         <div style="position:absolute;left:32.28px;top:652.05px" class="cls_030"><span class="cls_030">or have control of either as agent, executor, administrator, or otherwise; and that in making this return, for the purpose of being</span></div>
+         <div style="position:absolute;left:32.28px;top:664.05px" class="cls_030"><span class="cls_030">taxed thereon, I have not attempted either by transferring my property to another or by any other means to evade the laws</span></div>
+         <div style="position:absolute;left:32.28px;top:676.05px" class="cls_030"><span class="cls_030">governing taxation in this state. I do further swear that in making this return I have done so by estimating the true worth and value</span></div>
+         <div style="position:absolute;left:32.28px;top:688.04px" class="cls_030"><span class="cls_030">of every species of property contained therein.”</span></div>
+         <div style="position:absolute;left:31.56px;top:708.68px" class="cls_003"><span class="cls_003">TAXPAYER OR AGENT X _____________________________________________________________________________</span></div>
+         <div style="position:absolute;left:320.62px;top:718.36px" class="cls_031"><span class="cls_031">Signature</span></div>
+         <div style="position:absolute;left:31.56px;top:728.72px" class="cls_003"><span class="cls_003">PLEASE PRINT OR TYPE NAME  ______________________________________________________________________</span></div>
+         <div style="position:absolute;left:31.56px;top:748.64px" class="cls_003"><span class="cls_003">TITLE  ______________________________ DATE: __________________ PHONE NUMBER: ______________________</span></div>
+         <div style="position:absolute;left:541.44px;top:763.84px" class="cls_006"><span class="cls_006">PAGE 1</span></div>
+      </div>
+      <div style="position:absolute;left:50%;margin-left:-306px;top:2406px;width:612px;height:792px;border-style:outset;overflow:hidden">
+         <div style="position:absolute;left:0px;top:0px">
+            <img src="63a1d122-d13f-11ea-8b25-0cc47a792c0a_id_63a1d122-d13f-11ea-8b25-0cc47a792c0a_files/background4.jpg" width=612 height=792>
+         </div>
+         <div style="position:absolute;left:22.20px;top:22.32px" class="cls_027"><span class="cls_027">GENERAL INFORMATION - THIS SECTION SHOULD BE COMPLETED IN DETAIL</span></div>
+         <div style="position:absolute;left:373.80px;top:24.32px" class="cls_036"><span class="cls_036">(NOTE: THIS INFORMATION IS OPEN TO PUBLIC INSPECTION)</span></div>
+         <div style="position:absolute;left:23.76px;top:42.90px" class="cls_037"><span class="cls_037">1.</span></div>
+         <div style="position:absolute;left:40.58px;top:42.90px" class="cls_037"><span class="cls_037">CHECK TYPE OF BUSINESS:</span></div>
+         <div style="position:absolute;left:280.91px;top:42.90px" class="cls_037"><span class="cls_037">COMMERCIAL [</span></div>
+         <div style="position:absolute;left:366.40px;top:42.90px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:392.44px;top:42.90px" class="cls_037"><span class="cls_037">INDUSTRIAL [</span></div>
+         <div style="position:absolute;left:469.76px;top:42.90px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:488.89px;top:42.90px" class="cls_037"><span class="cls_037">AGRICULTURAL [</span></div>
+         <div style="position:absolute;left:582.32px;top:42.90px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:23.76px;top:58.86px" class="cls_037"><span class="cls_037">2.</span></div>
+         <div style="position:absolute;left:40.58px;top:58.86px" class="cls_037"><span class="cls_037">CHECK TYPE OF GA. INCOME TAX FILED:</span></div>
+         <div style="position:absolute;left:275.40px;top:58.86px" class="cls_037"><span class="cls_037">CORPORATION [</span></div>
+         <div style="position:absolute;left:366.23px;top:58.86px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:396.11px;top:58.86px" class="cls_037"><span class="cls_037">INDIVIDUAL [</span></div>
+         <div style="position:absolute;left:469.77px;top:58.86px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:494.97px;top:58.86px" class="cls_037"><span class="cls_037">PARTNERSHIP [</span></div>
+         <div style="position:absolute;left:582.31px;top:58.86px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:23.76px;top:74.94px" class="cls_037"><span class="cls_037">3.</span></div>
+         <div style="position:absolute;left:40.58px;top:74.94px" class="cls_037"><span class="cls_037">FISCAL YEAR ENDING DATE OF BUSINESS: _______________________________________________________________</span></div>
+         <div style="position:absolute;left:23.76px;top:90.90px" class="cls_037"><span class="cls_037">4.</span></div>
+         <div style="position:absolute;left:40.58px;top:90.90px" class="cls_037"><span class="cls_037">FEDERAL EMPLOYER IDENTIFICATION NUMBER: __________________________________________________________</span></div>
+         <div style="position:absolute;left:23.76px;top:106.86px" class="cls_037"><span class="cls_037">5.</span></div>
+         <div style="position:absolute;left:40.58px;top:106.86px" class="cls_037"><span class="cls_037">STATE TAXPAYER IDENTIFICATION (S.T.I.) NUMBER: ______________ STATE SALES TAX NUMBER: _________________</span></div>
+         <div style="position:absolute;left:23.76px;top:122.94px" class="cls_037"><span class="cls_037">6.</span></div>
+         <div style="position:absolute;left:40.58px;top:122.94px" class="cls_037"><span class="cls_037">NAME OF PRESIDENT OF CORPORATION OR OWNERS NAME: _______________________________________________</span></div>
+         <div style="position:absolute;left:23.76px;top:138.90px" class="cls_037"><span class="cls_037">7.</span></div>
+         <div style="position:absolute;left:40.58px;top:138.90px" class="cls_037"><span class="cls_037">DOING BUSINESS AS: _________________________________________________________________________________</span></div>
+         <div style="position:absolute;left:23.76px;top:154.86px" class="cls_037"><span class="cls_037">8.</span></div>
+         <div style="position:absolute;left:40.58px;top:154.86px" class="cls_037"><span class="cls_037">NAME ON BUSINESS LICENSE: __________________________________________________________________________</span></div>
+         <div style="position:absolute;left:23.76px;top:170.94px" class="cls_037"><span class="cls_037">9.</span></div>
+         <div style="position:absolute;left:40.58px;top:170.94px" class="cls_037"><span class="cls_037">IF BUSINESS LOCATED WITHIN CITY LIMITS, LIST CITY NAME: _______________________________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:186.90px" class="cls_037"><span class="cls_037">10.</span></div>
+         <div style="position:absolute;left:40.58px;top:186.90px" class="cls_037"><span class="cls_037">PREPARERS NAME: _________________________________________________________________________________</span></div>
+         <div style="position:absolute;left:40.56px;top:202.86px" class="cls_037"><span class="cls_037">ADDRESS: _____________________________________________________ PHONE: # ___________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:218.94px" class="cls_037"><span class="cls_037">11.</span></div>
+         <div style="position:absolute;left:40.58px;top:218.94px" class="cls_037"><span class="cls_037">PERSON WHO SHOULD BE CONTACTED CONCERNING QUESTIONS ABOUT THIS RETURN:</span></div>
+         <div style="position:absolute;left:40.56px;top:234.90px" class="cls_037"><span class="cls_037">NAME:  ________________________________________________ PHONE #: _____________________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:250.86px" class="cls_037"><span class="cls_037">12.</span></div>
+         <div style="position:absolute;left:40.58px;top:250.86px" class="cls_037"><span class="cls_037">LOCATION OF SUPPORTING RECORDS: __________________________________________________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:266.94px" class="cls_037"><span class="cls_037">13.</span></div>
+         <div style="position:absolute;left:40.58px;top:266.94px" class="cls_037"><span class="cls_037">PHONE NUMBER OF BUSINESS:  _______________________ HOME OFFICE NUMBER:  __________________________</span></div>
+         <div style="position:absolute;left:40.56px;top:282.90px" class="cls_037"><span class="cls_037">TOLL FREE NUMBER: _________________________________ FAX NUMBER: ____________________________________</span></div>
+         <div style="position:absolute;left:40.56px;top:298.86px" class="cls_037"><span class="cls_037">EMAIL ADDRESS: _____________________________________________________________________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:314.94px" class="cls_037"><span class="cls_037">14.</span></div>
+         <div style="position:absolute;left:40.58px;top:314.94px" class="cls_037"><span class="cls_037">MAIN BUSINESS PRODUCT OR ACTIVITY: _________________________________________________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:330.90px" class="cls_037"><span class="cls_037">15.</span></div>
+         <div style="position:absolute;left:40.58px;top:330.90px" class="cls_037"><span class="cls_037">NORTH AMERICAN INDUSTRY CLASSIFICATION SYSTEM (NAICS) NUMBER: ___________________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:346.86px" class="cls_037"><span class="cls_037">16.</span></div>
+         <div style="position:absolute;left:40.58px;top:346.86px" class="cls_037"><span class="cls_037">SQUARE FOOTAGE OF BUILDING: _____________ IF RETAIL, SQUARE FOOTAGE OF RETAIL AREA: ________________</span></div>
+         <div style="position:absolute;left:18.36px;top:362.94px" class="cls_037"><span class="cls_037">17.</span></div>
+         <div style="position:absolute;left:40.58px;top:362.94px" class="cls_037"><span class="cls_037">IF YOU CLOSED OR SOLD YOUR BUSINESS, PLEASE LIST NEW OWNER’S NAME AND ADDRESS __________________</span></div>
+         <div style="position:absolute;left:45.24px;top:378.90px" class="cls_037"><span class="cls_037">____________________________________________________________________________________________________</span></div>
+         <div style="position:absolute;left:18.36px;top:394.86px" class="cls_037"><span class="cls_037">18.</span></div>
+         <div style="position:absolute;left:40.58px;top:394.86px" class="cls_037"><span class="cls_037">DATE BUSINESS BEGAN IN THIS COUNTY: _____________________ WAS RETURN FILED LAST YEAR? YES [</span></div>
+         <div style="position:absolute;left:554.87px;top:394.86px" class="cls_037"><span class="cls_037">] NO [</span></div>
+         <div style="position:absolute;left:591.35px;top:394.86px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:18.36px;top:410.94px" class="cls_037"><span class="cls_037">19.</span></div>
+         <div style="position:absolute;left:40.58px;top:410.94px" class="cls_037"><span class="cls_037">DO YOU OR YOUR BUSINESS HAVE ASSETS LOCATED IN OTHER COUNTIES IN THIS STATE?   YES [</span></div>
+         <div style="position:absolute;left:514.50px;top:410.94px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:530.84px;top:410.94px" class="cls_037"><span class="cls_037">NO [</span></div>
+         <div style="position:absolute;left:564.60px;top:410.94px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:18.00px;top:426.90px" class="cls_037"><span class="cls_037">20.</span></div>
+         <div style="position:absolute;left:40.58px;top:426.90px" class="cls_037"><span class="cls_037">DOES THE BUSINESS OWN A BOAT AND MOTOR?   YES [</span></div>
+         <div style="position:absolute;left:321.92px;top:426.90px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:335.53px;top:426.90px" class="cls_037"><span class="cls_037">NO [</span></div>
+         <div style="position:absolute;left:372.00px;top:426.90px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:40.56px;top:442.86px" class="cls_037"><span class="cls_037">AIRCRAFT?    YES [</span></div>
+         <div style="position:absolute;left:143.66px;top:442.86px" class="cls_037"><span class="cls_037">]</span></div>
+         <div style="position:absolute;left:160.00px;top:442.86px" class="cls_037"><span class="cls_037">NO [</span></div>
+         <div style="position:absolute;left:193.76px;top:442.86px" class="cls_037"><span class="cls_037">]  IF YES, PLEASE REQUEST MARINE FORM PT-50M OR AIRCRAFT FORM PT 50A.</span></div>
+         <div style="position:absolute;left:20.88px;top:459.60px" class="cls_027"><span class="cls_027">REFERENCE INFORMATION</span></div>
+         <div style="position:absolute;left:23.16px;top:483.40px" class="cls_006"><span class="cls_006">1.   O.C.G.A. § 48-5-299 requires the Board of Tax Assessors to diligently investigate and inquire into the property owned in the county for the purpose of</span></div>
+         <div style="position:absolute;left:38.88px;top:493.00px" class="cls_006"><span class="cls_006">ascertaining what property, real and personal is subject to taxation in the county and require its proper return for taxation.</span></div>
+         <div style="position:absolute;left:23.16px;top:502.60px" class="cls_006"><span class="cls_006">2.   O.C.G.A. § 48-5-300 grants the Board of Tax Assessors authority to require production of books, papers, or documents, by subpoena, if necessary, which may</span></div>
+         <div style="position:absolute;left:38.88px;top:512.20px" class="cls_006"><span class="cls_006">aid in determining the proper assessment.</span></div>
+         <div style="position:absolute;left:23.16px;top:521.80px" class="cls_006"><span class="cls_006">3.   O.C.G.A. § 48-5-269 grants the State Revenue Commissioner the authority to prescribe the forms, books, and records to be used for standard property tax</span></div>
+         <div style="position:absolute;left:38.88px;top:531.40px" class="cls_006"><span class="cls_006">reporting for all taxing units, including but not limited to, the forms, books, and records to be used in the listing, appraisal and assessment of property and how</span></div>
+         <div style="position:absolute;left:38.88px;top:541.00px" class="cls_006"><span class="cls_006">the forms, books, and records shall be compiled and kept.</span></div>
+         <div style="position:absolute;left:23.16px;top:550.60px" class="cls_006"><span class="cls_006">4.   O.C.G.A. § 48-5-269.1 grants the State Revenue Commissioner the authority to adopt and require the use of uniform procedural manual for appraising tangible</span></div>
+         <div style="position:absolute;left:38.88px;top:560.20px" class="cls_006"><span class="cls_006">real and personal property.</span></div>
+         <div style="position:absolute;left:23.16px;top:569.80px" class="cls_006"><span class="cls_006">5.   In accordance with the above sections of the Georgia Code this return and schedules are submitted to you for your completion. Failure to file a completed copy</span></div>
+         <div style="position:absolute;left:38.88px;top:579.40px" class="cls_006"><span class="cls_006">of this form may lead to an audit of your records and/or the placing of an assessment on your property from the best information obtainable in accordance with</span></div>
+         <div style="position:absolute;left:38.54px;top:589.00px" class="cls_006"><span class="cls_006">O.C.G.A. § 48-5-299 (a).</span></div>
+         <div style="position:absolute;left:23.16px;top:598.60px" class="cls_006"><span class="cls_006">6.   Freeport Exemption (O.C.G.A. § § 48-5-48.2 and 48-5-48.6) may be available in your county. Applications are available on request and must be completed</span></div>
+         <div style="position:absolute;left:38.88px;top:608.20px" class="cls_006"><span class="cls_006">and filed with the business personal property return and schedules prior to the deadline for filing.</span></div>
+         <div style="position:absolute;left:23.16px;top:617.80px" class="cls_006"><span class="cls_006">7.   Any air and water pollution control facilities owned may be exempt under O.C.G.A. § 48-5-41 (11) which states… “All property used in or which is a part of any</span></div>
+         <div style="position:absolute;left:38.88px;top:627.40px" class="cls_006"><span class="cls_006">facility which has been installed or constructed at any time for the primary purpose of eliminating or reducing air and water pollution of such facilities and has</span></div>
+         <div style="position:absolute;left:38.88px;top:637.00px" class="cls_006"><span class="cls_006">been certified by the Department of Natural Resources as necessary and adequate for the purpose intended” shall be exempt from all Ad Valorem Property</span></div>
+         <div style="position:absolute;left:38.88px;top:646.60px" class="cls_006"><span class="cls_006">Taxes in this state.</span></div>
+         <div style="position:absolute;left:23.16px;top:656.20px" class="cls_006"><span class="cls_006">8.   Most counties do not accept metered mail dates as filing dates unless counter stamped by the post office. Be sure that the date of deposit and the postmark</span></div>
+         <div style="position:absolute;left:38.88px;top:665.80px" class="cls_006"><span class="cls_006">date are the same if mailing close to the deadline.</span></div>
+         <div style="position:absolute;left:23.16px;top:675.40px" class="cls_006"><span class="cls_006">9.   O.C.G.A. § 48-5-41.1 states… “All farm products grown in this state and remaining in the hands of the producer during the one year beginning immediately after</span></div>
+         <div style="position:absolute;left:38.88px;top:685.00px" class="cls_006"><span class="cls_006">their production and harvested agricultural products which have a planting-to-harvest cycle of 12 months or less, which are customarily cured or aged for a</span></div>
+         <div style="position:absolute;left:38.88px;top:694.60px" class="cls_006"><span class="cls_006">period in excess of one year after harvesting and before manufacturing, and which are held in this state for manufacturing and processing purposes and all</span></div>
+         <div style="position:absolute;left:38.88px;top:704.20px" class="cls_006"><span class="cls_006">qualified farm products grown in this state shall be exempt from Ad Valorem Property Taxes.”</span></div>
+         <div style="position:absolute;left:18.71px;top:713.80px" class="cls_006"><span class="cls_006">10.   O.C.G.A. § 48-5-43 states… “Consumers of commercial fertilizers shall not be required to return for taxation any commercial fertilizer or any manures commonly</span></div>
+         <div style="position:absolute;left:38.88px;top:723.40px" class="cls_006"><span class="cls_006">used by farmers and others as fertilizers if the land upon which the fertilizer is to be used has been properly returned for taxation.”</span></div>
+         <div style="position:absolute;left:18.71px;top:733.00px" class="cls_006"><span class="cls_006">11.   Boats and motors and aircraft should be reported on a separate reporting form which will be provided upon request.</span></div>
+         <div style="position:absolute;left:18.71px;top:742.60px" class="cls_006"><span class="cls_006">12.   Computer software (O.C.G.A. § 48-1-8) .shall constitute personal property only to the extent of the value of the unmounted or uninstalled medium on or in which</span></div>
+         <div style="position:absolute;left:38.88px;top:761.80px" class="cls_006"><span class="cls_006">it is stored or transmitted except that held as inventory ready for sale.</span></div>
+         <div style="position:absolute;left:539.16px;top:763.84px" class="cls_006"><span class="cls_006">PAGE 2</span></div>
+      </div>
+      <div style="position:absolute;left:50%;margin-left:-306px;top:3208px;width:612px;height:792px;border-style:outset;overflow:hidden">
+         <div style="position:absolute;left:0px;top:0px">
+            <img src="63a1d122-d13f-11ea-8b25-0cc47a792c0a_id_63a1d122-d13f-11ea-8b25-0cc47a792c0a_files/background5.jpg" width=612 height=792>
+         </div>
+         <div style="position:absolute;left:50.76px;top:9.68px" class="cls_019"><span class="cls_019">BUSINESS PERSONAL PROPERTY</span></div>
+         <div style="position:absolute;left:293.40px;top:13.96px" class="cls_006"><span class="cls_006">TAX YEAR</span></div>
+         <div style="position:absolute;left:357.84px;top:12.40px" class="cls_006"><span class="cls_006">IF ASSISTANCE NEEDED CALL</span></div>
+         <div style="position:absolute;left:508.56px;top:13.05px" class="cls_038"><span class="cls_038">ACCOUNT NUMBER</span></div>
+         <div style="position:absolute;left:109.32px;top:18.44px" class="cls_019"><span class="cls_019">SCHEDULE A</span></div>
+         <div style="position:absolute;left:43.80px;top:30.52px" class="cls_006"><span class="cls_006">(FURNITURE / FIXTURES / MACHINERY / EQUIPMENT)</span></div>
+         <div style="position:absolute;left:68.16px;top:39.96px" class="cls_020"><span class="cls_020">THIS SCHEDULE IS CONSIDERED CONFIDENTIAL AND</span></div>
+         <div style="position:absolute;left:315.12px;top:36.40px" class="cls_009"><span class="cls_009">DUE DATE</span></div>
+         <div style="position:absolute;left:396.66px;top:36.64px" class="cls_006"><span class="cls_006">MAP AND PARCEL I.D. NO.</span></div>
+         <div style="position:absolute;left:545.64px;top:37.00px" class="cls_006"><span class="cls_006">NAICS NO.</span></div>
+         <div style="position:absolute;left:80.40px;top:46.20px" class="cls_020"><span class="cls_020">WILL NOT BE OPEN FOR PUBLIC INSPECTION</span></div>
+         <div style="position:absolute;left:62.04px;top:52.56px" class="cls_020"><span class="cls_020">RETURN COMPLETED FORM TO ADDRESS LISTED BELOW</span></div>
+         <div style="position:absolute;left:52.32px;top:60.96px" class="cls_018"><span class="cls_018">COUNTY NAME AND RETURN ADDRESS</span></div>
+         <div style="position:absolute;left:370.80px;top:60.36px" class="cls_018"><span class="cls_018">TAXPAYER NAME AND ADDRESS</span></div>
+         <div style="position:absolute;left:29.28px;top:131.36px" class="cls_039"><span class="cls_039">DID YOU OR YOUR BUSINESS OWN ANY MACHINERY, EQUIPMENT,</span></div>
+         <div style="position:absolute;left:374.52px;top:133.68px" class="cls_018"><span class="cls_018">BUSINESS PHYSICAL LOCATION</span></div>
+         <div style="position:absolute;left:29.28px;top:138.44px" class="cls_039"><span class="cls_039">FURNITURE, OR FIXTURES ON JANUARY 1 OF THIS YEAR? YES (</span></div>
+         <div style="position:absolute;left:255.41px;top:138.44px" class="cls_039"><span class="cls_039">)</span></div>
+         <div style="position:absolute;left:29.28px;top:145.40px" class="cls_039"><span class="cls_039">NO (</span></div>
+         <div style="position:absolute;left:49.88px;top:145.40px" class="cls_039"><span class="cls_039">). IF YES, PLEASE LIST BELOW.</span></div>
+         <div style="position:absolute;left:31.68px;top:158.76px" class="cls_040"><span class="cls_040">YEAR</span></div>
+         <div style="position:absolute;left:74.40px;top:158.76px" class="cls_040"><span class="cls_040">PREVIOUSLY REPORTED</span></div>
+         <div style="position:absolute;left:189.12px;top:157.92px" class="cls_040"><span class="cls_040">ADDITIONS OR</span></div>
+         <div style="position:absolute;left:282.24px;top:158.76px" class="cls_040"><span class="cls_040">DISPOSALS OR</span></div>
+         <div style="position:absolute;left:369.96px;top:158.76px" class="cls_040"><span class="cls_040">ADJUSTED ORIGINAL</span></div>
+         <div style="position:absolute;left:465.60px;top:157.08px" class="cls_040"><span class="cls_040">COMP</span></div>
+         <div style="position:absolute;left:512.04px;top:158.76px" class="cls_040"><span class="cls_040">INDICATED BASIC COST</span></div>
+         <div style="position:absolute;left:24.12px;top:165.96px" class="cls_040"><span class="cls_040">ACQUIRED</span></div>
+         <div style="position:absolute;left:79.20px;top:165.96px" class="cls_040"><span class="cls_040">ORIGINAL COST NEW</span></div>
+         <div style="position:absolute;left:161.88px;top:160.68px" class="cls_027"><span class="cls_027">+</span></div>
+         <div style="position:absolute;left:188.76px;top:165.12px" class="cls_040"><span class="cls_040">TRANSFERS IN</span></div>
+         <div style="position:absolute;left:256.56px;top:161.76px" class="cls_027"><span class="cls_027">-</span></div>
+         <div style="position:absolute;left:279.36px;top:165.96px" class="cls_040"><span class="cls_040">TRANSFERS OUT</span></div>
+         <div style="position:absolute;left:349.44px;top:160.80px" class="cls_027"><span class="cls_027">=</span></div>
+         <div style="position:absolute;left:385.44px;top:165.96px" class="cls_040"><span class="cls_040">COST NEW</span></div>
+         <div style="position:absolute;left:449.64px;top:163.20px" class="cls_027"><span class="cls_027">X</span></div>
+         <div style="position:absolute;left:465.36px;top:164.28px" class="cls_040"><span class="cls_040">CONV.</span></div>
+         <div style="position:absolute;left:493.92px;top:162.00px" class="cls_027"><span class="cls_027">=</span></div>
+         <div style="position:absolute;left:519.96px;top:165.96px" class="cls_040"><span class="cls_040">APPROACH VALUE</span></div>
+         <div style="position:absolute;left:462.60px;top:171.48px" class="cls_040"><span class="cls_040">FACTOR</span></div>
+         <div style="position:absolute;left:21.96px;top:181.24px" class="cls_035"><span class="cls_035">GROUP 1:  TYPICAL ECONOMIC LIFE OF 5-7 YEARS (EXAMPLES ON INSTRUCTION SHEET)  A.C.R.S./ M.A.C.R.S. NOT ACCEPTABLE</span></div>
+         <div style="position:absolute;left:162.00px;top:192.00px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:190.14px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:191.20px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:191.90px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:191.40px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:204.00px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:202.13px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:203.20px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:203.90px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:203.39px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:215.99px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:214.13px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:215.19px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:215.90px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:215.39px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:227.99px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:226.13px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:227.19px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:227.89px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:227.39px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:239.99px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:238.13px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:239.19px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:239.89px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:239.38px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:251.98px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:250.12px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:251.18px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:251.89px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:251.38px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:263.98px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:262.12px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:263.18px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:263.88px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:263.38px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:275.98px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:274.12px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.55px;top:275.18px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:450.23px;top:275.88px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.55px;top:275.38px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:30.72px;top:288.64px" class="cls_041"><span class="cls_041">TOTAL</span></div>
+         <div style="position:absolute;left:27.12px;top:293.56px" class="cls_041"><span class="cls_041">GROUP 1</span></div>
+         <div style="position:absolute;left:23.16px;top:301.96px" class="cls_035"><span class="cls_035">GROUP 2:  TYPICAL ECONOMIC LIFE OF 8-12 YEARS (EXAMPLES ON INSTRUCTION SHEET) A.C.R.S./ M.A.C.R.S. NOT ACCEPTABLE</span></div>
+         <div style="position:absolute;left:162.00px;top:310.54px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:310.54px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:312.19px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:311.56px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:311.16px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:322.54px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:322.54px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:324.18px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:323.55px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:323.16px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:334.53px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:334.53px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:336.18px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:335.55px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:335.15px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:346.53px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:346.53px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:348.18px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:347.55px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:347.15px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:358.53px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:358.53px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:360.17px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:359.54px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:359.15px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:370.52px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:370.52px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:372.17px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:371.54px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:371.14px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:382.52px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:382.52px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:384.17px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:383.54px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:383.14px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:394.52px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:394.52px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:396.05px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:395.54px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:395.14px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:406.52px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:406.52px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:408.05px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:407.53px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:407.14px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:418.51px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:418.51px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:420.04px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:419.53px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:419.13px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:430.51px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:430.51px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:432.04px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:431.53px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:431.13px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:442.51px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.91px;top:442.51px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:349.91px;top:444.04px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.63px;top:443.52px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.31px;top:443.13px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:31.80px;top:456.04px" class="cls_041"><span class="cls_041">TOTAL</span></div>
+         <div style="position:absolute;left:28.20px;top:461.08px" class="cls_041"><span class="cls_041">GROUP 2</span></div>
+         <div style="position:absolute;left:24.84px;top:468.28px" class="cls_035"><span class="cls_035">GROUP 3:  TYPICAL ECONOMIC LIFE OF 13 YEARS  OR MORE (EXAMPLES ON INSTRUCTION SHEET) A.C.R.S./ M.A.C.R.S. NOT ACCEPTABLE</span></div>
+         <div style="position:absolute;left:162.00px;top:479.64px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:479.59px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:480.12px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:480.16px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:479.37px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:491.64px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:491.58px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:492.11px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:492.16px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:491.37px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:503.63px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:503.58px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:504.11px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:504.16px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:503.36px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:515.63px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:515.58px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:516.11px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:516.15px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:515.36px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:527.63px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:527.57px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:528.10px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:528.15px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:527.36px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:539.63px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:539.57px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:540.10px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:540.15px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:539.35px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:551.62px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:551.57px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:552.10px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:552.14px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:551.35px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:563.62px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:563.57px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:564.10px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:564.14px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:563.35px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:575.62px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:575.56px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:576.09px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:576.14px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:575.35px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:587.61px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:587.56px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:588.09px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:588.14px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:587.34px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:599.61px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:599.56px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:600.09px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:600.13px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:599.34px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:611.61px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:611.55px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:612.08px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:612.13px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:611.34px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:623.60px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:623.55px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:624.08px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:624.13px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:623.33px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:635.60px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:635.55px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:636.08px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:636.12px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:635.33px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:647.60px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:647.54px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:648.08px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:648.12px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:647.33px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:659.59px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:659.54px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:660.07px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:660.12px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:659.33px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.00px;top:671.59px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:256.30px;top:671.54px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:350.14px;top:672.07px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:449.98px;top:672.11px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:494.14px;top:671.32px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:31.08px;top:683.44px" class="cls_041"><span class="cls_041">TOTAL</span></div>
+         <div style="position:absolute;left:27.36px;top:688.48px" class="cls_041"><span class="cls_041">GROUP 3</span></div>
+         <div style="position:absolute;left:20.88px;top:697.08px" class="cls_042"><span class="cls_042">GROUP 4:  TYPICAL ECONOMIC LIFE OF 1-4 YEARS;  ALSO I.R.S. ASSET CLASS 00.12 I</span><span class="cls_043">(EXAMPLES ON INSTRUCTION SHEET</span><span class="cls_044">) A.C.R.S./ M.A.C.R.S. NOT ACCEPTABLE</span></div>
+         <div style="position:absolute;left:162.12px;top:707.94px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:255.70px;top:706.70px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:348.70px;top:707.75px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:448.90px;top:708.37px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.30px;top:707.77px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.12px;top:719.94px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:255.70px;top:718.70px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:348.70px;top:719.75px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:448.90px;top:720.36px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.30px;top:719.77px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.12px;top:731.94px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:255.70px;top:730.70px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:348.70px;top:731.75px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:448.90px;top:732.36px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.30px;top:731.77px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:162.12px;top:743.93px" class="cls_018"><span class="cls_018">+</span></div>
+         <div style="position:absolute;left:255.70px;top:742.69px" class="cls_018"><span class="cls_018">-</span></div>
+         <div style="position:absolute;left:348.70px;top:743.74px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:448.90px;top:744.36px" class="cls_018"><span class="cls_018">X</span></div>
+         <div style="position:absolute;left:493.30px;top:743.76px" class="cls_018"><span class="cls_018">=</span></div>
+         <div style="position:absolute;left:31.44px;top:755.44px" class="cls_041"><span class="cls_041">TOTAL</span></div>
+         <div style="position:absolute;left:27.72px;top:760.48px" class="cls_041"><span class="cls_041">GROUP 4</span></div>
+         <div style="position:absolute;left:29.76px;top:766.72px" class="cls_041"><span class="cls_041">TOTAL</span></div>
+         <div style="position:absolute;left:21.36px;top:771.76px" class="cls_041"><span class="cls_041">ALL GROUPS</span></div>
+         <div style="position:absolute;left:41.16px;top:780.76px" class="cls_009"><span class="cls_009">ENTER TOTAL INDICATED VALUE ON PAGE ONE LINE F UNDER INDICATED VALUE FROM SCHEDULES COLUMN.</span></div>
+      </div>
+      <div style="position:absolute;left:50%;margin-left:-306px;top:4010px;width:612px;height:792px;border-style:outset;overflow:hidden">
+         <div style="position:absolute;left:0px;top:0px">
+            <img src="63a1d122-d13f-11ea-8b25-0cc47a792c0a_id_63a1d122-d13f-11ea-8b25-0cc47a792c0a_files/background6.jpg" width=612 height=792>
+         </div>
+         <div style="position:absolute;left:122.04px;top:19.56px" class="cls_025"><span class="cls_025">BUSINESS PERSONAL PROPERTY SCHEDULE  B       INVENTORY</span></div>
+         <div style="position:absolute;left:136.68px;top:33.76px" class="cls_006"><span class="cls_006">THIS SCHEDULE IS CONSIDERED CONFIDENTIAL AND NOT OPEN TO PUBLIC INSPECTION</span></div>
+         <div style="position:absolute;left:23.66px;top:49.52px" class="cls_008"><span class="cls_008">SCHEDULE B - INVENTORY - SEE INSTRUCTION SHEET</span></div>
+         <div style="position:absolute;left:25.32px;top:66.56px" class="cls_039"><span class="cls_039">Did you or your business own any inventory on January 1, this year? Yes (</span></div>
+         <div style="position:absolute;left:251.89px;top:66.56px" class="cls_039"><span class="cls_039">) No (</span></div>
+         <div style="position:absolute;left:273.12px;top:66.56px" class="cls_039"><span class="cls_039">).</span></div>
+         <div style="position:absolute;left:288.60px;top:68.80px" class="cls_006"><span class="cls_006">1.</span></div>
+         <div style="position:absolute;left:302.16px;top:68.80px" class="cls_006"><span class="cls_006">Indicate your inventory accounting method (Lower of Cost or Market, Retail</span></div>
+         <div style="position:absolute;left:25.32px;top:74.96px" class="cls_039"><span class="cls_039">If yes, please list in space provided below. Show total 100% cost, do not include</span></div>
+         <div style="position:absolute;left:302.16px;top:78.76px" class="cls_006"><span class="cls_006">Method, Weighted Average, Physical, etc.)</span></div>
+         <div style="position:absolute;left:25.32px;top:83.36px" class="cls_039"><span class="cls_039">licensed motor vehicles, or dealer heavy duty equipment for sale weighing over</span></div>
+         <div style="position:absolute;left:25.32px;top:91.76px" class="cls_039"><span class="cls_039">5,000 pounds and to be used for construction purposes.</span></div>
+         <div style="position:absolute;left:288.60px;top:88.72px" class="cls_006"><span class="cls_006">2.</span></div>
+         <div style="position:absolute;left:302.18px;top:88.72px" class="cls_006"><span class="cls_006">Check Cost Method as it applies to your inventory:</span></div>
+         <div style="position:absolute;left:492.86px;top:88.72px" class="cls_006"><span class="cls_006">(</span></div>
+         <div style="position:absolute;left:502.19px;top:88.72px" class="cls_006"><span class="cls_006">) Actual</span></div>
+         <div style="position:absolute;left:533.75px;top:88.72px" class="cls_006"><span class="cls_006">(</span></div>
+         <div style="position:absolute;left:543.08px;top:88.72px" class="cls_006"><span class="cls_006">) LIFO</span></div>
+         <div style="position:absolute;left:302.16px;top:98.80px" class="cls_006"><span class="cls_006">(</span></div>
+         <div style="position:absolute;left:311.49px;top:98.80px" class="cls_006"><span class="cls_006">) FIFO  LIFO not acceptable</span></div>
+         <div style="position:absolute;left:26.52px;top:108.40px" class="cls_006"><span class="cls_006">1.  Merchandise</span></div>
+         <div style="position:absolute;left:288.60px;top:108.76px" class="cls_006"><span class="cls_006">3</span></div>
+         <div style="position:absolute;left:302.16px;top:108.76px" class="cls_006"><span class="cls_006">Fiscal Year ending date of business</span></div>
+         <div style="position:absolute;left:302.16px;top:118.72px" class="cls_006"><span class="cls_006">If your Fiscal Year ends at a point in time other than January 1, you should attach</span></div>
+         <div style="position:absolute;left:26.52px;top:125.32px" class="cls_006"><span class="cls_006">2.  Raw Materials</span></div>
+         <div style="position:absolute;left:302.16px;top:128.80px" class="cls_006"><span class="cls_006">a breakdown of how you arrived at your January 1 inventory.</span></div>
+         <div style="position:absolute;left:288.60px;top:138.76px" class="cls_006"><span class="cls_006">4.</span></div>
+         <div style="position:absolute;left:302.16px;top:138.91px" class="cls_045"><span class="cls_045">Inventory reported on previous year Georgia Income Tax Return:</span></div>
+         <div style="position:absolute;left:26.52px;top:142.36px" class="cls_006"><span class="cls_006">3.  Goods in Process</span></div>
+         <div style="position:absolute;left:288.60px;top:148.72px" class="cls_006"><span class="cls_006">5.</span></div>
+         <div style="position:absolute;left:302.18px;top:148.72px" class="cls_006"><span class="cls_006">The 100% delivered cost should include freight, burden and overhead at your</span></div>
+         <div style="position:absolute;left:26.52px;top:159.40px" class="cls_006"><span class="cls_006">4.  Finished Goods</span></div>
+         <div style="position:absolute;left:302.16px;top:158.80px" class="cls_006"><span class="cls_006">level of trade on January 1.</span></div>
+         <div style="position:absolute;left:288.60px;top:168.76px" class="cls_006"><span class="cls_006">6.</span></div>
+         <div style="position:absolute;left:302.16px;top:168.76px" class="cls_009"><span class="cls_009">If you file a Corporate or Partnership Income Tax Return, </span><span class="cls_049">a photocopy of your</span></div>
+         <div style="position:absolute;left:26.52px;top:176.32px" class="cls_006"><span class="cls_006">5.  Goods in Transit</span></div>
+         <div style="position:absolute;left:302.16px;top:178.72px" class="cls_049"><span class="cls_049">most current balance sheet (Corporation. Form 1120, Schedule A & L - Partnership,</span></div>
+         <div style="position:absolute;left:302.16px;top:188.80px" class="cls_009"><span class="cls_009">F</span><span class="cls_049">orm 1065, Schedule A & L) as filed with your U.S. Income Tax Return</span><span class="cls_009"> is requested.</span></div>
+         <div style="position:absolute;left:26.52px;top:193.36px" class="cls_006"><span class="cls_006">6.  Warehoused</span></div>
+         <div style="position:absolute;left:302.16px;top:198.76px" class="cls_009"><span class="cls_009">If you filed an Individual or Sole Proprietorship Income Tax Return, </span><span class="cls_049">a photo copy</span></div>
+         <div style="position:absolute;left:26.52px;top:210.40px" class="cls_006"><span class="cls_006">7.  Consigned</span></div>
+         <div style="position:absolute;left:302.16px;top:208.72px" class="cls_049"><span class="cls_049">of your most current Profit or Loss Statement Form 1040, Schedule C, Pages 1 &</span></div>
+         <div style="position:absolute;left:302.16px;top:218.80px" class="cls_049"><span class="cls_049">2 as filed with your U.S. Income Tax Return</span><span class="cls_009"> is requested. These documents are</span></div>
+         <div style="position:absolute;left:26.52px;top:227.32px" class="cls_006"><span class="cls_006">8.  Floor Planned</span></div>
+         <div style="position:absolute;left:302.16px;top:228.76px" class="cls_009"><span class="cls_009">requested for inventory verification purposes and will not be available for public</span></div>
+         <div style="position:absolute;left:302.16px;top:238.72px" class="cls_009"><span class="cls_009">inspection (O.C.G.A. § 48-5-314). Under GA Law you cannot be required to furnish</span></div>
+         <div style="position:absolute;left:26.52px;top:244.36px" class="cls_006"><span class="cls_006">9.  Spare Parts</span></div>
+         <div style="position:absolute;left:302.16px;top:248.80px" class="cls_009"><span class="cls_009">any Income Tax Records or Returns.</span></div>
+         <div style="position:absolute;left:288.60px;top:258.76px" class="cls_006"><span class="cls_006">7.</span></div>
+         <div style="position:absolute;left:302.18px;top:258.76px" class="cls_006"><span class="cls_006">Inventory is subject to audit and verification from your records or those you have</span></div>
+         <div style="position:absolute;left:22.08px;top:261.64px" class="cls_006"><span class="cls_006">10.  Supplies</span></div>
+         <div style="position:absolute;left:38.04px;top:269.76px" class="cls_020"><span class="cls_020">Includes computer, medical, office and operating</span></div>
+         <div style="position:absolute;left:302.16px;top:268.72px" class="cls_006"><span class="cls_006">filed with the State of Georgia Department of Revenue.</span></div>
+         <div style="position:absolute;left:38.04px;top:276.72px" class="cls_020"><span class="cls_020">supplies, fuel, and tangible prepaid expensed items)</span></div>
+         <div style="position:absolute;left:288.60px;top:278.80px" class="cls_006"><span class="cls_006">8.</span></div>
+         <div style="position:absolute;left:302.18px;top:278.80px" class="cls_006"><span class="cls_006">Do not make any deductions for anticipated mark-down or shrinkage. Do not</span></div>
+         <div style="position:absolute;left:22.00px;top:281.32px" class="cls_006"><span class="cls_006">11.  Packaging Materials</span></div>
+         <div style="position:absolute;left:302.16px;top:288.76px" class="cls_006"><span class="cls_006">discount, figures are to be taken directly from your books.</span></div>
+         <div style="position:absolute;left:22.08px;top:299.68px" class="cls_006"><span class="cls_006">12.  Livestock</span></div>
+         <div style="position:absolute;left:288.60px;top:298.72px" class="cls_006"><span class="cls_006">9.</span></div>
+         <div style="position:absolute;left:302.18px;top:298.72px" class="cls_006"><span class="cls_006">If inventory is less than the previous year an explanation for the decrease should</span></div>
+         <div style="position:absolute;left:39.96px;top:309.96px" class="cls_020"><span class="cls_020">(Non Exempt 48-5-41.1)</span></div>
+         <div style="position:absolute;left:302.16px;top:308.80px" class="cls_006"><span class="cls_006">be submitted.</span></div>
+         <div style="position:absolute;left:22.08px;top:319.96px" class="cls_006"><span class="cls_006">13.  TOTAL INVENTORY</span></div>
+         <div style="position:absolute;left:284.16px;top:318.76px" class="cls_006"><span class="cls_006">10.</span></div>
+         <div style="position:absolute;left:302.18px;top:318.76px" class="cls_006"><span class="cls_006">Gross Sales for the previous calendar year:</span></div>
+         <div style="position:absolute;left:284.16px;top:328.72px" class="cls_006"><span class="cls_006">11.</span></div>
+         <div style="position:absolute;left:302.19px;top:328.72px" class="cls_006"><span class="cls_006">All taxable livestock and farm products should be reported as inventory. See</span></div>
+         <div style="position:absolute;left:25.32px;top:334.08px" class="cls_023"><span class="cls_023">Enter total on page 1 Line </span><span class="cls_046">I</span><span class="cls_023"> schedule column. If Freeport account</span></div>
+         <div style="position:absolute;left:302.16px;top:338.80px" class="cls_006"><span class="cls_006">O.C.G.A. § 48-5-41.1 for details of exemption.</span></div>
+         <div style="position:absolute;left:25.32px;top:344.88px" class="cls_023"><span class="cls_023">enter exempt amount on Line P and taxable amount on Line </span><span class="cls_046">I</span><span class="cls_023">.</span></div>
+         <div style="position:absolute;left:20.78px;top:363.20px" class="cls_008"><span class="cls_008">SCHEDULE C - CONSTRUCTION IN PROGRESS</span></div>
+         <div style="position:absolute;left:23.16px;top:378.52px" class="cls_006"><span class="cls_006">Did you have unallocated costs for construction in progress on January 1 this year? Yes (</span></div>
+         <div style="position:absolute;left:338.07px;top:378.52px" class="cls_006"><span class="cls_006">)  No (</span></div>
+         <div style="position:absolute;left:365.39px;top:378.52px" class="cls_006"><span class="cls_006">). If yes, did you have tangible personal property connected with</span></div>
+         <div style="position:absolute;left:23.16px;top:388.12px" class="cls_006"><span class="cls_006">this construction in progress that has not been reported in any other section of this schedule?  Yes (</span></div>
+         <div style="position:absolute;left:378.37px;top:388.12px" class="cls_006"><span class="cls_006">)  No (</span></div>
+         <div style="position:absolute;left:406.56px;top:388.12px" class="cls_006"><span class="cls_006">) If yes, please list in the space provided below. Add</span></div>
+         <div style="position:absolute;left:23.16px;top:397.72px" class="cls_006"><span class="cls_006">Indicated Value to Total on Page 1 Line F Schedule Column.</span></div>
+         <div style="position:absolute;left:242.40px;top:409.68px" class="cls_020"><span class="cls_020">YEAR</span></div>
+         <div style="position:absolute;left:276.00px;top:409.44px" class="cls_020"><span class="cls_020">USEFUL</span></div>
+         <div style="position:absolute;left:336.72px;top:408.76px" class="cls_006"><span class="cls_006">TOTAL</span></div>
+         <div style="position:absolute;left:403.20px;top:409.08px" class="cls_020"><span class="cls_020">MARKET</span></div>
+         <div style="position:absolute;left:56.28px;top:410.60px" class="cls_047"><span class="cls_047">DETAILED DESCRIPTION OF ITEMS</span></div>
+         <div style="position:absolute;left:461.28px;top:410.44px" class="cls_006"><span class="cls_006">INDICATED</span></div>
+         <div style="position:absolute;left:532.08px;top:410.44px" class="cls_006"><span class="cls_006">OFFICE USE</span></div>
+         <div style="position:absolute;left:234.96px;top:416.88px" class="cls_020"><span class="cls_020">ACQUIRED</span></div>
+         <div style="position:absolute;left:281.40px;top:416.64px" class="cls_020"><span class="cls_020">LIFE</span></div>
+         <div style="position:absolute;left:392.40px;top:412.28px" class="cls_003"><span class="cls_003">X</span></div>
+         <div style="position:absolute;left:406.20px;top:416.28px" class="cls_020"><span class="cls_020">VALUE</span></div>
+         <div style="position:absolute;left:435.96px;top:411.68px" class="cls_003"><span class="cls_003">=</span></div>
+         <div style="position:absolute;left:36.84px;top:419.00px" class="cls_047"><span class="cls_047">(ATTACH SUPPLEMENTAL SHEETS IF NEEDED)</span></div>
+         <div style="position:absolute;left:275.64px;top:423.84px" class="cls_020"><span class="cls_020">(YEARS)</span></div>
+         <div style="position:absolute;left:337.68px;top:418.36px" class="cls_006"><span class="cls_006">COST</span></div>
+         <div style="position:absolute;left:403.80px;top:423.48px" class="cls_020"><span class="cls_020">FACTOR</span></div>
+         <div style="position:absolute;left:469.56px;top:420.04px" class="cls_006"><span class="cls_006">VALUE</span></div>
+         <div style="position:absolute;left:545.76px;top:420.04px" class="cls_006"><span class="cls_006">ONLY</span></div>
+         <div style="position:absolute;left:392.40px;top:433.28px" class="cls_003"><span class="cls_003">X</span></div>
+         <div style="position:absolute;left:409.56px;top:434.08px" class="cls_006"><span class="cls_006">.75</span></div>
+         <div style="position:absolute;left:435.96px;top:431.36px" class="cls_003"><span class="cls_003">=</span></div>
+         <div style="position:absolute;left:23.55px;top:450.08px" class="cls_008"><span class="cls_008">SECTION 1: CONSIGNED GOODS</span></div>
+         <div style="position:absolute;left:26.52px;top:462.28px" class="cls_006"><span class="cls_006">Did you have any consigned goods, floor planned merchandise, or any other type of goods that were loaned, stored or otherwise held on January 1, this year, and</span></div>
+         <div style="position:absolute;left:26.52px;top:471.88px" class="cls_006"><span class="cls_006">not owned by you and was not reported in your inventory value in schedule B above of this report? Yes (</span></div>
+         <div style="position:absolute;left:399.24px;top:471.88px" class="cls_006"><span class="cls_006">)  No (</span></div>
+         <div style="position:absolute;left:428.13px;top:471.88px" class="cls_006"><span class="cls_006">). If yes, list in the space provided below.</span></div>
+         <div style="position:absolute;left:74.16px;top:486.44px" class="cls_047"><span class="cls_047">DESCRIPTION OF GOODS</span></div>
+         <div style="position:absolute;left:248.76px;top:485.72px" class="cls_047"><span class="cls_047">FULL</span></div>
+         <div style="position:absolute;left:376.80px;top:491.60px" class="cls_047"><span class="cls_047">NAME AND ADDRESS OF LEGAL OWNER</span></div>
+         <div style="position:absolute;left:39.36px;top:494.84px" class="cls_047"><span class="cls_047">(ATTACH SUPPLEMENTAL SHEETS IF NEEDED)</span></div>
+         <div style="position:absolute;left:247.56px;top:494.12px" class="cls_047"><span class="cls_047">COST</span></div>
+         <div style="position:absolute;left:24.14px;top:534.92px" class="cls_008"><span class="cls_008">SECTION 2:  LEASED OR RENTED EQUIPMENT</span></div>
+         <div style="position:absolute;left:24.24px;top:551.68px" class="cls_006"><span class="cls_006">Did you have in your possession or was there located at your business on January 1, this year, any machinery, equipment, furniture, fixture, tools, vending</span></div>
+         <div style="position:absolute;left:24.24px;top:561.28px" class="cls_006"><span class="cls_006">machines (coffee, cigarette, candy, games etc.) or other type personal property which was leased, rented, loaned, stored or otherwise located at your business and</span></div>
+         <div style="position:absolute;left:24.24px;top:570.88px" class="cls_006"><span class="cls_006">not owned by you? Yes (   )  No (   ). If yes, list the equipment in the space provided below (exclude licensed motor vehicles). Attach supplemental sheet if necessary.</span></div>
+         <div style="position:absolute;left:382.07px;top:581.84px" class="cls_047"><span class="cls_047">RENTAL</span></div>
+         <div style="position:absolute;left:39.36px;top:588.92px" class="cls_047"><span class="cls_047">NAME/ADDRESS OF OWNER</span></div>
+         <div style="position:absolute;left:318.83px;top:586.16px" class="cls_047"><span class="cls_047">SELLING</span></div>
+         <div style="position:absolute;left:380.27px;top:588.79px" class="cls_047"><span class="cls_047">AMOUNT</span></div>
+         <div style="position:absolute;left:435.48px;top:586.63px" class="cls_047"><span class="cls_047">DATE OF</span></div>
+         <div style="position:absolute;left:499.20px;top:586.39px" class="cls_047"><span class="cls_047">DATE</span></div>
+         <div style="position:absolute;left:551.16px;top:586.63px" class="cls_047"><span class="cls_047">LENGTH</span></div>
+         <div style="position:absolute;left:202.56px;top:590.12px" class="cls_047"><span class="cls_047">DESCRIPTION OF ITEM</span></div>
+         <div style="position:absolute;left:322.92px;top:594.55px" class="cls_047"><span class="cls_047">PRICE</span></div>
+         <div style="position:absolute;left:374.51px;top:595.75px" class="cls_047"><span class="cls_047">PER MONTH</span></div>
+         <div style="position:absolute;left:423.60px;top:595.03px" class="cls_047"><span class="cls_047">MANUFACTURE</span></div>
+         <div style="position:absolute;left:489.36px;top:594.79px" class="cls_047"><span class="cls_047">INSTALLED</span></div>
+         <div style="position:absolute;left:548.28px;top:595.03px" class="cls_047"><span class="cls_047">OF LEASE</span></div>
+         <div style="position:absolute;left:23.06px;top:630.20px" class="cls_008"><span class="cls_008">SECTION 3:  ADDITIONS OR ITEMS TRANSFERRED IN</span></div>
+         <div style="position:absolute;left:24.24px;top:644.12px" class="cls_047"><span class="cls_047">Did you have items which were added or transferred in for prior years or the current year that were not previously reported?  Yes (</span></div>
+         <div style="position:absolute;left:421.75px;top:644.12px" class="cls_047"><span class="cls_047">)   No (</span></div>
+         <div style="position:absolute;left:447.17px;top:644.12px" class="cls_047"><span class="cls_047">). If yes, list in the space provided below.</span></div>
+         <div style="position:absolute;left:62.76px;top:653.92px" class="cls_006"><span class="cls_006">DETAILED DESCRIPTION OF ITEMS (ATTACH SUPPLEMENTAL SHEETS IF NEEDED)</span></div>
+         <div style="position:absolute;left:427.44px;top:655.16px" class="cls_047"><span class="cls_047">YEAR ACQUIRED</span></div>
+         <div style="position:absolute;left:506.04px;top:655.40px" class="cls_047"><span class="cls_047">ORIGINAL COST NEW</span></div>
+         <div style="position:absolute;left:22.58px;top:689.24px" class="cls_008"><span class="cls_008">SECTION 4:  DISPOSALS OR ITEMS TRANSFERRED OUT</span></div>
+         <div style="position:absolute;left:24.44px;top:703.48px" class="cls_006"><span class="cls_006">Did you have items which have been sold, junked, transferred or otherwise no longer located at the business January 1 this year? Yes (</span></div>
+         <div style="position:absolute;left:497.35px;top:703.48px" class="cls_006"><span class="cls_006">)  No (</span></div>
+         <div style="position:absolute;left:524.16px;top:703.48px" class="cls_006"><span class="cls_006">). If yes, list in the</span></div>
+         <div style="position:absolute;left:22.56px;top:713.08px" class="cls_006"><span class="cls_006">space provided below.</span></div>
+         <div style="position:absolute;left:39.96px;top:728.12px" class="cls_047"><span class="cls_047">DETAILED DESCRIPTION OF ITEMS</span></div>
+         <div style="position:absolute;left:208.44px;top:728.12px" class="cls_047"><span class="cls_047">YEAR</span></div>
+         <div style="position:absolute;left:267.72px;top:729.80px" class="cls_047"><span class="cls_047">DATE</span></div>
+         <div style="position:absolute;left:306.13px;top:729.80px" class="cls_047"><span class="cls_047">ORIGINAL COST</span></div>
+         <div style="position:absolute;left:376.80px;top:728.48px" class="cls_047"><span class="cls_047">REASON</span></div>
+         <div style="position:absolute;left:427.56px;top:729.32px" class="cls_047"><span class="cls_047">IF EQUIPMENT SOLD, NAME AND ADDRESS OF</span></div>
+         <div style="position:absolute;left:20.40px;top:736.52px" class="cls_047"><span class="cls_047">(ATTACH SUPPLEMENTAL SHEETS IF NEEDED)</span></div>
+         <div style="position:absolute;left:199.68px;top:736.52px" class="cls_047"><span class="cls_047">ACQUIRED</span></div>
+         <div style="position:absolute;left:258.36px;top:738.20px" class="cls_047"><span class="cls_047">DISPOSED</span></div>
+         <div style="position:absolute;left:325.45px;top:738.20px" class="cls_047"><span class="cls_047">NEW</span></div>
+         <div style="position:absolute;left:436.92px;top:737.72px" class="cls_047"><span class="cls_047">PURCHASER SHOULD BE LISTED BELOW</span></div>
+         <div style="position:absolute;left:547.08px;top:775.56px" class="cls_020"><span class="cls_020">PAGE 4</span></div>
+      </div>
+   </body>
+</html>
